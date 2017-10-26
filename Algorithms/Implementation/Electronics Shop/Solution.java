@@ -17,7 +17,7 @@ public class Solution {
         for(int keyboards_i=n-1; keyboards_i >=0; --keyboards_i){
             for(int drives_i=m-1; drives_i >=0 ; --drives_i){
                  int somme = keyboards[keyboards_i] + drives[drives_i];
-                 if (max < somme && s > somme){
+                 if (max < somme && s >= somme){
                      max = somme;
                  }      
              }
